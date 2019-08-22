@@ -1,1 +1,1 @@
-Graficos
+Scripts en python para la primera práctica de videojuegos
