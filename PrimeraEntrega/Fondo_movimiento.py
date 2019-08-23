@@ -20,8 +20,8 @@ while True:
 
     for event in pygame.event.get():
         if event.type==QUIT:
-            event.quit()
-            sys.quit()
+            pygame.quit()
+            sys.exit()
         #evento presionar tecla
         elif event.type==pygame.KEYDOWN:
             if event.key==K_LEFT:
